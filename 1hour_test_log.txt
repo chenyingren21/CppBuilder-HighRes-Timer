@@ -1,0 +1,22 @@
+00:00:00.063, Start
+00:01:32.250, Elapse:4.089ms, OutOfRange:0.143ms
+00:01:32.254, Elapse:3.724ms, OutOfRange:-0.144ms
+00:02:14.769, Elapse:4.001ms, OutOfRange:0.055ms
+00:02:14.773, Elapse:3.812ms, OutOfRange:-0.056ms
+00:06:35.360, Elapse:3.949ms, OutOfRange:0.004ms
+00:06:35.364, Elapse:3.863ms, OutOfRange:-0.004ms
+00:16:33.247, Elapse:4.154ms, OutOfRange:0.209ms
+00:16:33.250, Elapse:3.659ms, OutOfRange:-0.209ms
+00:46:07.685, Elapse:3.953ms, OutOfRange:0.007ms
+00:46:07.689, Elapse:3.860ms, OutOfRange:-0.007ms
+00:46:35.255, Elapse:3.987ms, OutOfRange:0.041ms
+00:46:35.259, Elapse:3.826ms, OutOfRange:-0.042ms
+00:47:41.750, Elapse:3.948ms, OutOfRange:0.003ms
+00:47:41.754, Elapse:3.864ms, OutOfRange:-0.003ms
+00:57:32.735, Elapse:3.964ms, OutOfRange:0.018ms
+00:57:32.738, Elapse:3.849ms, OutOfRange:-0.019ms
+00:59:16.745, Elapse:3.946ms, OutOfRange:0.001ms
+00:59:16.749, Elapse:3.866ms, OutOfRange:-0.001ms
+01:01:12.958, Elapse:3.948ms, OutOfRange:0.003ms
+01:01:12.962, Elapse:3.864ms, OutOfRange:-0.003ms
+01:01:22.310, Stop
