@@ -47,6 +47,18 @@
 
 > 📁 **完整紀錄**: 你可以查閱原始的 [1 小時測試 Log 日誌](1hour_test_log.txt) 來獲取更詳細的逐秒數據。
 
+## 🛠️ 開發環境 (Development Environment)
+
+本專案完全基於 **Embarcadero RAD Studio 12.2 Athens** 開發，充分利用了其現代化技術棧：
+
+*   **Compiler**: C++Builder **Win64 Modern (bcc64x)** - 基於 Clang 15 的高效能編譯器。
+*   **Framework**: VCL / Console Application 混合架構。
+*   **SDK**: Windows 11 SDK (10.0.22621.0)。
+*   **Key APIs**: 整合了 `ntdll.dll` (系統底層計時控制) 與 `MMCSS` (多媒體類別排程服務)。
+
+> **為什麼選擇 XE 12.2？**
+> 透過 12.2 版本引入的編譯器優化，`uThreadTimer` 能以極低的指令開銷（Overhead）執行，這對於維持 256Hz 高頻且不跳動的循環至關重要。
+
 ## 🚀 快速開始
 
 1. **Clone 專案**：
