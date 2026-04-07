@@ -29,14 +29,23 @@
 
 ---
 
-## 💻 測試環境 (Hardware)
+## 📊 效能表現與測試環境 (Performance & Environment)
 
-*   **CPU**: AMD Ryzen 9 7945HX (16C/32T)
-*   **RAM**: 64GB DDR5 5200MT/s
-*   **OS**: Windows 11 Pro 64-bit
-*   **IDE**: RAD Studio 12.x (C++ 64-bit Modern Compiler)
+本專案在高性能筆電 **MSI Crosshair A16** 上進行壓力測試，展現了極致的計時穩定性。
 
----
+### 🚀 測試數據總結
+* **測試時長**: 01:01:12 (超過 1 小時)
+* **準確度**: **99.998%**
+* **總循環次數**: 940,057 次
+* **平均誤差 (Delta)**: **3.906100 ms** (目標週期 3.906250 ms)
+* **抖動次數 (Out of Range)**: 全程僅 **18 次** 輕微抖動
+
+### 🖼️ 測試截圖與設備證明
+| 1 小時穩定性統計 | 測試設備規格 (Ryzen 9 7945HX) |
+| :---: | :---: |
+| ![Benchmark](benchmark.png) | ![Hardware](hardware_setup.png) |
+
+> 📁 **完整紀錄**: 你可以查閱原始的 [1 小時測試 Log 日誌](1hour_test_log.txt) 來獲取更詳細的逐秒數據。
 
 ## 🚀 快速開始
 
