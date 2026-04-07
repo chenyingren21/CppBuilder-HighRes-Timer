@@ -1,5 +1,41 @@
-bin/Win32/Release/ThxTimerConsole.exe
-bin/Win32/Release/ThxTimerConsole.exe
-bin/Win32/Release/ThxTimerConsole.exe
-bin/Win64/Release/ThxTimerConsole.exe
-bin/Win32/Release/ThxTimerConsole.exe
+# --- C++Builder / RAD Studio 暫存與編譯產物 ---
+**/__astcache/
+**/__history/
+**/Win32/
+**/Win64/
+**/Win64x/
+**/Debug/
+**/Release/
+
+# --- 連結器與偵錯檔案 ---
+*.obj
+*.tds
+*.pch
+*.tlog
+*.lastbuildstate
+*.bak
+*.~*
+*.local
+*.identcache
+*.dsk
+*.pdi
+*.vclres
+*.otares
+*.stat
+
+# --- 執行檔與二進位檔 (建議排除，改由 Release 發布) ---
+*.exe
+*.dll
+*.pbm
+*.res
+
+# --- 作業系統垃圾檔案 ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# --- 允許上傳的例外 ---
+!**/images/*.png
+!**/images/*.jpg
+!README.md
+!.gitignore
